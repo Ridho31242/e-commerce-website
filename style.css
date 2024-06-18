@@ -1,0 +1,38 @@
+.carousel-item {
+    background-color: silver;
+}
+
+.img-fluid {
+    object-fit: contain;
+}
+
+.marketing h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card img {
+    object-fit: contain;
+}
+.card {
+    margin: 40px;
+}
+
+.card-contain {
+    display: flex;
+    justify-content: center;
+}
+
+.card-text {
+    display: block; /* Pastikan elemen adalah blok */
+    max-height: 4.5em; /* Ketinggian maksimum 3 baris (asumsi font-size 1em) */
+    line-height: 1.5em; /* Tinggi baris 1.5 kali ukuran font */
+    overflow: hidden; /* Sembunyikan teks yang melebihi batas */
+    text-overflow: ellipsis; /* Tambahkan ellipsis di akhir teks yang terpotong */
+  }
+
+  .marketing:nth-child(2) img {
+    object-fit: fill;
+    
+  }
